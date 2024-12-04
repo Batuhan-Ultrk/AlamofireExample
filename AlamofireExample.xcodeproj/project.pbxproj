@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1EEFA59E2C3AD0BF005CEA22 /* AlamofireExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEFA59D2C3AD0BF005CEA22 /* AlamofireExampleApp.swift */; };
+		1EEFA5A02C3AD0BF005CEA22 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEFA59F2C3AD0BF005CEA22 /* ContentView.swift */; };
+		1EEFA5A22C3AD0C0005CEA22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EEFA5A12C3AD0C0005CEA22 /* Assets.xcassets */; };
+		1EEFA5A62C3AD0C0005CEA22 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EEFA5A52C3AD0C0005CEA22 /* Preview Assets.xcassets */; };
+		1EEFA5AE2C3AD0D2005CEA22 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 1EEFA5AD2C3AD0D2005CEA22 /* Alamofire */; };
+		1EEFA5B12C3AD20A005CEA22 /* Kisiler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEFA5B02C3AD20A005CEA22 /* Kisiler.swift */; };
+		1EEFA5B32C3AD290005CEA22 /* KisilerDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEFA5B22C3AD290005CEA22 /* KisilerDao.swift */; };
+		1EEFA5B52C3ADFF3005CEA22 /* CRUDCevap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEFA5B42C3ADFF3005CEA22 /* CRUDCevap.swift */; };
+		1EEFA5B72C3AE4DB005CEA22 /* FilmlerCevap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEFA5B62C3AE4DB005CEA22 /* FilmlerCevap.swift */; };
+		1EEFA5B92C3AE4EB005CEA22 /* KategorilerCevap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEFA5B82C3AE4EB005CEA22 /* KategorilerCevap.swift */; };
+		1EEFA5BB2C3AE51B005CEA22 /* Kategoriler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEFA5BA2C3AE51B005CEA22 /* Kategoriler.swift */; };
+		1EEFA5BD2C3AE535005CEA22 /* Filmler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEFA5BC2C3AE535005CEA22 /* Filmler.swift */; };
+		1EEFA5BF2C3AE55D005CEA22 /* Yonetmenler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEFA5BE2C3AE55D005CEA22 /* Yonetmenler.swift */; };
+		1EEFA5C12C3AE59A005CEA22 /* KategorilerDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEFA5C02C3AE59A005CEA22 /* KategorilerDao.swift */; };
+		1EEFA5C32C3AE7AA005CEA22 /* FilmlerDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEFA5C22C3AE7AA005CEA22 /* FilmlerDao.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1EEFA59A2C3AD0BF005CEA22 /* AlamofireExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlamofireExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EEFA59D2C3AD0BF005CEA22 /* AlamofireExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireExampleApp.swift; sourceTree = "<group>"; };
+		1EEFA59F2C3AD0BF005CEA22 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1EEFA5A12C3AD0C0005CEA22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1EEFA5A32C3AD0C0005CEA22 /* AlamofireExample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AlamofireExample.entitlements; sourceTree = "<group>"; };
+		1EEFA5A52C3AD0C0005CEA22 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1EEFA5AF2C3AD114005CEA22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		1EEFA5B02C3AD20A005CEA22 /* Kisiler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kisiler.swift; sourceTree = "<group>"; };
+		1EEFA5B22C3AD290005CEA22 /* KisilerDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisilerDao.swift; sourceTree = "<group>"; };
+		1EEFA5B42C3ADFF3005CEA22 /* CRUDCevap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRUDCevap.swift; sourceTree = "<group>"; };
+		1EEFA5B62C3AE4DB005CEA22 /* FilmlerCevap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmlerCevap.swift; sourceTree = "<group>"; };
+		1EEFA5B82C3AE4EB005CEA22 /* KategorilerCevap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KategorilerCevap.swift; sourceTree = "<group>"; };
+		1EEFA5BA2C3AE51B005CEA22 /* Kategoriler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kategoriler.swift; sourceTree = "<group>"; };
+		1EEFA5BC2C3AE535005CEA22 /* Filmler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filmler.swift; sourceTree = "<group>"; };
+		1EEFA5BE2C3AE55D005CEA22 /* Yonetmenler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yonetmenler.swift; sourceTree = "<group>"; };
+		1EEFA5C02C3AE59A005CEA22 /* KategorilerDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KategorilerDao.swift; sourceTree = "<group>"; };
+		1EEFA5C22C3AE7AA005CEA22 /* FilmlerDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmlerDao.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1EEFA5972C3AD0BF005CEA22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EEFA5AE2C3AD0D2005CEA22 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1EEFA5912C3AD0BF005CEA22 = {
+			isa = PBXGroup;
+			children = (
+				1EEFA59C2C3AD0BF005CEA22 /* AlamofireExample */,
+				1EEFA59B2C3AD0BF005CEA22 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1EEFA59B2C3AD0BF005CEA22 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1EEFA59A2C3AD0BF005CEA22 /* AlamofireExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1EEFA59C2C3AD0BF005CEA22 /* AlamofireExample */ = {
+			isa = PBXGroup;
+			children = (
+				1EEFA5AF2C3AD114005CEA22 /* Info.plist */,
+				1EEFA59D2C3AD0BF005CEA22 /* AlamofireExampleApp.swift */,
+				1EEFA59F2C3AD0BF005CEA22 /* ContentView.swift */,
+				1EEFA5A12C3AD0C0005CEA22 /* Assets.xcassets */,
+				1EEFA5A32C3AD0C0005CEA22 /* AlamofireExample.entitlements */,
+				1EEFA5A42C3AD0C0005CEA22 /* Preview Content */,
+				1EEFA5B02C3AD20A005CEA22 /* Kisiler.swift */,
+				1EEFA5B22C3AD290005CEA22 /* KisilerDao.swift */,
+				1EEFA5B42C3ADFF3005CEA22 /* CRUDCevap.swift */,
+				1EEFA5B62C3AE4DB005CEA22 /* FilmlerCevap.swift */,
+				1EEFA5B82C3AE4EB005CEA22 /* KategorilerCevap.swift */,
+				1EEFA5BA2C3AE51B005CEA22 /* Kategoriler.swift */,
+				1EEFA5BC2C3AE535005CEA22 /* Filmler.swift */,
+				1EEFA5BE2C3AE55D005CEA22 /* Yonetmenler.swift */,
+				1EEFA5C02C3AE59A005CEA22 /* KategorilerDao.swift */,
+				1EEFA5C22C3AE7AA005CEA22 /* FilmlerDao.swift */,
+			);
+			path = AlamofireExample;
+			sourceTree = "<group>";
+		};
+		1EEFA5A42C3AD0C0005CEA22 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1EEFA5A52C3AD0C0005CEA22 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1EEFA5992C3AD0BF005CEA22 /* AlamofireExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EEFA5A92C3AD0C0005CEA22 /* Build configuration list for PBXNativeTarget "AlamofireExample" */;
+			buildPhases = (
+				1EEFA5962C3AD0BF005CEA22 /* Sources */,
+				1EEFA5972C3AD0BF005CEA22 /* Frameworks */,
+				1EEFA5982C3AD0BF005CEA22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlamofireExample;
+			packageProductDependencies = (
+				1EEFA5AD2C3AD0D2005CEA22 /* Alamofire */,
+			);
+			productName = AlamofireExample;
+			productReference = 1EEFA59A2C3AD0BF005CEA22 /* AlamofireExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1EEFA5922C3AD0BF005CEA22 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					1EEFA5992C3AD0BF005CEA22 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 1EEFA5952C3AD0BF005CEA22 /* Build configuration list for PBXProject "AlamofireExample" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1EEFA5912C3AD0BF005CEA22;
+			packageReferences = (
+				1EEFA5AC2C3AD0D2005CEA22 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			productRefGroup = 1EEFA59B2C3AD0BF005CEA22 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1EEFA5992C3AD0BF005CEA22 /* AlamofireExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1EEFA5982C3AD0BF005CEA22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EEFA5A62C3AD0C0005CEA22 /* Preview Assets.xcassets in Resources */,
+				1EEFA5A22C3AD0C0005CEA22 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1EEFA5962C3AD0BF005CEA22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EEFA5B92C3AE4EB005CEA22 /* KategorilerCevap.swift in Sources */,
+				1EEFA5A02C3AD0BF005CEA22 /* ContentView.swift in Sources */,
+				1EEFA5B52C3ADFF3005CEA22 /* CRUDCevap.swift in Sources */,
+				1EEFA59E2C3AD0BF005CEA22 /* AlamofireExampleApp.swift in Sources */,
+				1EEFA5B32C3AD290005CEA22 /* KisilerDao.swift in Sources */,
+				1EEFA5BD2C3AE535005CEA22 /* Filmler.swift in Sources */,
+				1EEFA5C12C3AE59A005CEA22 /* KategorilerDao.swift in Sources */,
+				1EEFA5BB2C3AE51B005CEA22 /* Kategoriler.swift in Sources */,
+				1EEFA5B12C3AD20A005CEA22 /* Kisiler.swift in Sources */,
+				1EEFA5BF2C3AE55D005CEA22 /* Yonetmenler.swift in Sources */,
+				1EEFA5C32C3AE7AA005CEA22 /* FilmlerDao.swift in Sources */,
+				1EEFA5B72C3AE4DB005CEA22 /* FilmlerCevap.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1EEFA5A72C3AD0C0005CEA22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1EEFA5A82C3AD0C0005CEA22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		1EEFA5AA2C3AD0C0005CEA22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AlamofireExample/AlamofireExample.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AlamofireExample/Preview Content\"";
+				DEVELOPMENT_TEAM = M32D6H6P7H;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AlamofireExample/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.batuhanuluturk.AlamofireExample.AlamofireExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1EEFA5AB2C3AD0C0005CEA22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AlamofireExample/AlamofireExample.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AlamofireExample/Preview Content\"";
+				DEVELOPMENT_TEAM = M32D6H6P7H;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AlamofireExample/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.batuhanuluturk.AlamofireExample.AlamofireExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1EEFA5952C3AD0BF005CEA22 /* Build configuration list for PBXProject "AlamofireExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EEFA5A72C3AD0C0005CEA22 /* Debug */,
+				1EEFA5A82C3AD0C0005CEA22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EEFA5A92C3AD0C0005CEA22 /* Build configuration list for PBXNativeTarget "AlamofireExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EEFA5AA2C3AD0C0005CEA22 /* Debug */,
+				1EEFA5AB2C3AD0C0005CEA22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1EEFA5AC2C3AD0D2005CEA22 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1EEFA5AD2C3AD0D2005CEA22 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1EEFA5AC2C3AD0D2005CEA22 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 1EEFA5922C3AD0BF005CEA22 /* Project object */;
+}
